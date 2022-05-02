@@ -64,10 +64,36 @@ h2 {
     text-decoration: none;
     color: rgb(54,77,204);
     font-weight: bold;
+    box-shadow: 0 0 20px white;
     
 }
 .links-list li a span {
     display: block;
     color: gray;
     margin-top: 10px;
+}
+
+.links-second {
+    list-style: none;
+}
+
+.links-second li {
+    margin: 10px 20px;
+}
+
+.links-second li a {
+    display: block;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.links-second li a span {
+    display: block;
+    color: gray;
+    margin-top: 10px;
+
 }
